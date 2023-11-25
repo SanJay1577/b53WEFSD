@@ -1,0 +1,94 @@
+p{
+background-color: blue !important;
+}
+
+.head{
+   color:coral
+}
+.head-font{
+  font-family:cursive;
+  color: coral;
+}
+
+#uni-head{
+  color: brown;
+}
+#uni-head2{
+   color:darkblue;
+}
+
+.btn{
+   border: none;  
+   width: 100px;  
+   height: 25px; 
+   border-radius: 10px;
+   cursor: pointer;
+}
+.btn-sucess{
+          background-color: green;
+          color: white;
+}
+
+.btn-danger{
+          background-color: red;
+          color: black;
+}
+.btn-warning{
+          background-color: yellow;
+          color: black;
+}
+#btn-group{
+ border: 2px solid black;
+ width: 300px;
+ height: 100px;
+}
+.block{
+   display: block;
+   text-align: center;
+   background-color: red;
+   margin: 10px;
+   padding: 5px;
+   width: 70px;
+   height: 20px;
+}
+.inline{
+   display: inline;
+   text-align: center;
+   background-color: red;
+   margin: 10px;
+   padding: 5px;
+   /* cannot use width and height in display inline */
+   width: 70px;
+   height: 20px;
+}
+.inline-block{
+   display: inline-block;
+   text-align: center;
+   background-color: red;
+   margin: 10px;
+   padding: 5px;
+   width: 70px;
+   height: 20px;
+
+}
+
+div > span > a{
+   font-size: larger;
+   color: green;
+}
+.outer-div{
+   background-color: green;
+   width: 300px;
+   height: 300px;
+   margin: 25px;
+}
+
+.inner-div{
+   background-color: red;
+   width: 150px;
+   height: 150px;
+   padding: 10px 15px 0px 25px;
+          /* top  right bottom left*/
+   border: 10px solid blue;
+   margin: 20px 25px 15px 25px;
+}

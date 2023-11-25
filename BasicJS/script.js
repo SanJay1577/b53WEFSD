@@ -50,6 +50,7 @@
 //     age: 26,
 //     isMentor: true,
 //   },
+// [1, 3, 5]
 // ];
 // console.log(arr);
 // // iterate an array
